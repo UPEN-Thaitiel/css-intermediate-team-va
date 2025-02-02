@@ -32,7 +32,9 @@ function test() {
     var temp = a; // Store the value of a in a temporary variable
     a = b;        // Assign the value of b to a
     b = temp;     // Assign the value of the temporary variable (original a) to b
-
+    a = a + b;      
+    b = a.slice(0, a.length - b.length); 
+    a = a.slice(b.length);
     
 /***********Do not change the code below 👇*******/
 

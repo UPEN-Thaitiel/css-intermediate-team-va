@@ -29,12 +29,15 @@ function lifeInWeeks(age) {
 /************Don't change the code above************/    
     
     //Write your code here.
-    
-    
-    
-    
+    const edadMaxima = 90 * 52;
+    const semanasRestantes = edadMaxima - age;
+    const diasRestantes = semanasRestantes * (365 / 52);
+    const mesesRestantes = semanasRestantes * (12 / 52);
+
+    console.log(`Te quedan ${diasRestantes} días, ${semanasRestantes} semanas y ${mesesRestantes} meses.`);
     
 /*************Don't change the code below**********/
 }
 
 lifeInWeeks(56)
+
