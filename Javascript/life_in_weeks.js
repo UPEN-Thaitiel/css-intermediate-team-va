@@ -40,3 +40,4 @@ function lifeInWeeks(age) {
 }
 
 lifeInWeeks(56)
+
